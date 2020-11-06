@@ -12,7 +12,7 @@ Usage:
     
     $fingerprint = new FingerPrint(); // instance object FingerPrint
     
-    echo ($fingerprint->generate_finger_print()."\n"); print fingerprint hash of my browser
+    echo ($fingerprint->generate_finger_print()."\n"); //print fingerprint hash of my browser
     
 ?>
 
