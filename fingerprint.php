@@ -1,4 +1,10 @@
 <?php
+        /*
+            Author: Bryl33t
+            Version: 1.0
+
+        */
+
 
     class FingerPrint {
 
