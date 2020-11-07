@@ -6,6 +6,6 @@
     if ($fingerprint->equals_finger_print($fingerprint->generate_finger_print(), $fingerprint->generate_finger_print())) {
         echo "ok";
     } else {
-        echo "nop";
+        echo "nop"; 
     }
 ?>

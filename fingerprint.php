@@ -1,5 +1,11 @@
 <?php
 
+    /*
+        Author: Bryl33t
+        Version: 1.0
+
+    */
+
     class FingerPrint {
 
         public function generate_finger_print() : string {
@@ -20,8 +26,8 @@
             return implode("",$arr_browsers_hashed_infos);
         }
 
-        public function equals_finger_print($fingerprint1, $fingerprint2) : bool {
-            if($fingerprint1 == $fingerprint2) {
+        public function equals_finger_print($fingerprint_hash) : bool {
+            if($fingerprint_hash == this->generate_finger_print()) {
                 return true;
             } else {
                 return false;
